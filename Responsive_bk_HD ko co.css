@@ -1,0 +1,207 @@
+@media only screen and (max-width: 1199px) {
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+    }
+
+    .pagewrap {
+        width: 100% !important;
+        padding: 0 10px;
+    }
+
+    .box_menu {
+        height: auto;
+    }
+
+    .footer_company, .map_footer, .dangkynhantin_footer {
+        width: calc(100% / 3 - 20px);
+    }
+
+    .dangkynhantin_footer {
+        height: 240px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nums a {
+        margin-bottom: 20px;
+    }
+
+    .mn-mobile {
+        display: inline-block !important;
+        float: right;
+        background: linear-gradient(#00448b, #007dff);
+        padding: 5px;
+        position: relative;
+        height: 45px;
+        line-height: 28px;
+        top: 0;
+        right: 15px;
+        border-radius: 4px
+    }
+
+    .mn-mobile img {
+        width: 35px;
+    }
+
+    .ttvb_home_l, .httql_home ul, .viewLeft, .hinhanh_ct_right {
+        width: 50%;
+    }
+
+    .ttvb_home_c {
+        margin: 0 10px;
+        width: 25%;
+    }
+
+    .ttvb_home_r {
+        width: 20%;
+        margin: 0;
+    }
+
+    .padding_pagewrap, .page_conten_page {
+        margin-top: 20px;
+    }
+
+    .viewRight {
+        width: 45%;
+        margin-left: 10px;
+    }
+
+    .noidung_ct_left {
+        width: 45%;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .pro_home_box {
+        margin: 0 10px;
+    }
+
+    .dangkynhantin_footer ul form input, .dangkynhantin_footer ul form a {
+        width: 100%;
+        border-right: solid #0000fe 1px;
+    }
+
+    .dangkynhantin_footer ul form a {
+        text-align: center;
+    }
+
+    .pro_home.pro_home_2 ul {
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ttvb_home_l, .noidung_ct_left, .hinhanh_ct_right {
+        width: 100%;
+    }
+
+    .ttvb_home_c {
+        width: 50%;
+    }
+
+    .ttvb_home_r {
+        width: 40%;
+        margin-left: 10px;
+    }
+
+    .footer_company, .map_footer, .dangkynhantin_footer {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+    }
+
+    .right_header, .logo_top {
+        zoom: .8
+    }
+
+    .company_time ul li {
+        clear: both;
+        float: right;
+    }
+
+    .company_time {
+        padding-right: 0;
+    }
+
+    .logo_top {
+        transform: translate(0, -200%);
+        top: 100%;
+    }
+
+    .logo_top li img {
+        height: 60px;
+    }
+
+    .viewLeft {
+        margin-left: 0;
+    }
+
+    .pro_home.flex ul, .tintuc_home_id.flex ul, .company_contact ul {
+        width: calc(100% / 2 - 20px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .homeabout ul, .homeabout li, .contact .left, .contact .right {
+        width: 100%;
+    }
+
+    .contact {
+        margin-bottom: 20px;
+    }
+
+    .httql_home ul {
+        width: 70%;
+    }
+
+    .homeabout ul p {
+        padding-left: 0;
+    }
+
+    .footer_company, .map_footer, .dangkynhantin_footer, .company_contact ul {
+        width: calc(100% - 20px);
+    }
+
+    .pro_home.pro_home_2 ul {
+        width: calc(100% / 2 - 20px);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .viewLeft, .viewRight {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .httql_home ul {
+        width: 95%;
+    }
+
+    .company_time {
+        zoom: 0.8;
+        line-height: 30px;
+    }
+
+    .pro_home.pro_home_2 ul, .pro_home.flex ul, .tintuc_home_id.flex ul {
+        width: calc(100% - 20px);
+    }
+
+    .viewRight h4 a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .ttvb_home_c, .ttvb_home_r {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+}
